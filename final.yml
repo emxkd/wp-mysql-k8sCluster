@@ -6,3 +6,8 @@
 - hosts: workerNode
   roles:
     - role: k8s-slave
+    
+- hosts: masterNode
+  roles:
+    - role: wp
+
